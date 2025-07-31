@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ansys FEA on Home</title>
+    <link>http://localhost:1313/tags/ansys-fea/</link>
+    <description>Recent content in Ansys FEA on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
+    <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
+    <copyright>© 2025 Winston Shen</copyright>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ansys-fea/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Carbon Fiber Linkage Member Design, Manufacturing, and Testing</title>
+      <link>http://localhost:1313/projects/cfca/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <author>winston200618@gmail.com (Winston Shen)</author>
+      <guid>http://localhost:1313/projects/cfca/</guid>
+      <description>CFCA design and testing, pull rod manufacturing</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/cfca/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
