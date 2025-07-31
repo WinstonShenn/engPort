@@ -19,7 +19,7 @@
 
   
   <meta name="description" content="Activities I lead and undertook as the 25-26 Suspension Lead">
-  <meta name="keywords" content="Solidworks,Ansys,Project Management,Kinematic Solver,DFM,">
+  <meta name="keywords" content="Solidworks,Ansys,Project Management,Kinematic Solver,DFM,Machining,">
   
   
   <link rel="canonical" href="http://localhost:1313/projects/sus/">
@@ -108,6 +108,7 @@
     <meta property="article:tag" content="Project Management">
     <meta property="article:tag" content="Kinematic Solver">
     <meta property="article:tag" content="DFM">
+    <meta property="article:tag" content="Machining">
 
   
   <meta name="twitter:card" content="summary">
@@ -135,10 +136,10 @@
     
     "dateModified": "2025-06-17T00:00:00\u002b00:00",
     
-    "keywords": ["Solidworks","Ansys","Project Management","Kinematic Solver","DFM"],
+    "keywords": ["Solidworks","Ansys","Project Management","Kinematic Solver","DFM","Machining"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "78"
+    "wordCount": "86"
   }]
   </script>
 
@@ -642,6 +643,18 @@
 
               </span>
             
+              <span
+                class="mr-2 mt-[0.5rem]"
+                onclick="window.open(&#34;/tags/machining/&#34;,'_self');return false;">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Machining
+  </span>
+</span>
+
+              </span>
+            
           
         
       
@@ -695,7 +708,11 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#project-overview">Project Overview</a>
+      <ul>
+        <li><a href="#revamped-calculations-and-considerations-for-decoupled-suspension">Revamped calculations and considerations for decoupled suspension</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -709,12 +726,98 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#project-overview">Project Overview</a>
+      <ul>
+        <li><a href="#revamped-calculations-and-considerations-for-decoupled-suspension">Revamped calculations and considerations for decoupled suspension</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
 </details>
 
+
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = false
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
 
 
             
@@ -742,6 +845,17 @@
 </h2>
 <p>I am leading a team of students in the designing, manufacturing, and testing of the suspension and steering systems for the 25-26 FSAE vehicle.</p>
 <p>I played a large role in research and project management before commencement of the 25-26 season. I conducted research into a decoupled suspension system and revamped our calculations for the change if need be.</p>
+
+<h3 class="relative group">Revamped calculations and considerations for decoupled suspension 
+    <div id="revamped-calculations-and-considerations-for-decoupled-suspension" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#revamped-calculations-and-considerations-for-decoupled-suspension" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<img class="thumbnailshadow" src="multcalcs.png"/>
 <p>I designed the dynamic parametric Suspension CAD Assembly and optimized suspension geometry using the Lotus Kinematics Solver</p>
 
           
@@ -788,7 +902,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/projects/cflec/">
+            <a class="flex group mr-3" href="/projects/cfca/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -799,11 +913,11 @@
               >
               <span class="flex flex-col">
                 <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Manufacturing carbon fiber parts at Leading Edge Composites</span
+                  >Carbon Fiber Linkage Member Design, Manufacturing, and Testing</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-10-30T00:00:00&#43;00:00">30 October 2024</time>
+                    <time datetime="2025-03-30T00:00:00&#43;00:00">30 March 2025</time>
                   
                 </span>
               </span>
@@ -819,7 +933,7 @@
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-07-12T00:00:00&#43;00:00">12 July 2025</time>
+                    <time datetime="2025-12-12T00:00:00&#43;00:00">12 December 2025</time>
                   
                 </span>
               </span>

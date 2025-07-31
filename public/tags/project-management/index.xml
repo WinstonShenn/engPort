@@ -21,5 +21,15 @@
       
     </item>
     
+    <item>
+      <title>IBoost - A Web App for Grade Analytics</title>
+      <link>http://localhost:1313/projects/iboost/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      <author>winston200618@gmail.com (Winston Shen)</author>
+      <guid>http://localhost:1313/projects/iboost/</guid>
+      <description>Making a web app for MYP grade analytics and improving teacher-student communication</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/iboost/featured.png" />
+    </item>
+    
   </channel>
 </rss>

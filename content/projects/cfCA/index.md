@@ -1,6 +1,6 @@
 ---
 title: "Carbon Fiber Linkage Member Design, Manufacturing, and Testing"
-date: 2024-04-30
+date: 2025-03-30
 Summary: "CFCA design and testing, pull rod manufacturing"
 draft: false
 featured: "featured.jpg"
