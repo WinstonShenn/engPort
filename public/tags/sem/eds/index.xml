@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SEM/EDS on Portfolio</title>
-    <link>http://localhost:1313/engPort/tags/sem/eds/</link>
+    <link>https://winstonshenn.github.io/engPort/tags/sem/eds/</link>
     <description>Recent content in SEM/EDS on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
     <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
     <copyright>© 2025 Winston Shen</copyright>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/engPort/tags/sem/eds/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://winstonshenn.github.io/engPort/tags/sem/eds/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Heavy Metal Bioremediating Bacteria</title>
-      <link>http://localhost:1313/engPort/projects/asm/</link>
+      <link>https://winstonshenn.github.io/engPort/projects/asm/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/engPort/projects/asm/</guid>
+      <guid>https://winstonshenn.github.io/engPort/projects/asm/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/engPort/projects/asm/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://winstonshenn.github.io/engPort/projects/asm/featured.jpg" />
     </item>
     
   </channel>

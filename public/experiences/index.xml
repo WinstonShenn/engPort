@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiences on Portfolio</title>
-    <link>http://localhost:1313/engPort/experiences/</link>
+    <link>https://winstonshenn.github.io/engPort/experiences/</link>
     <description>Recent content in Experiences on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
     <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
     <copyright>© 2025 Winston Shen</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/engPort/experiences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://winstonshenn.github.io/engPort/experiences/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>HKSTP</title>
-      <link>http://localhost:1313/engPort/experiences/_hkstp/</link>
+      <link>https://winstonshenn.github.io/engPort/experiences/_hkstp/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/engPort/experiences/_hkstp/</guid>
+      <guid>https://winstonshenn.github.io/engPort/experiences/_hkstp/</guid>
       <description>Summer intern at the Incu-Bio biotech startup incubator at the Hong Kong Science and Technology Park.</description>
       
     </item>
     
     <item>
       <title>PwC</title>
-      <link>http://localhost:1313/engPort/experiences/_pwc/</link>
+      <link>https://winstonshenn.github.io/engPort/experiences/_pwc/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/engPort/experiences/_pwc/</guid>
+      <guid>https://winstonshenn.github.io/engPort/experiences/_pwc/</guid>
       <description>Summer intern at PwC Hong Kong for Tax Consulting</description>
       
     </item>

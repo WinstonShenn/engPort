@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AutoDesk CFD on Portfolio</title>
-    <link>http://localhost:1313/engPort/tags/autodesk-cfd/</link>
+    <link>https://winstonshenn.github.io/engPort/tags/autodesk-cfd/</link>
     <description>Recent content in AutoDesk CFD on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
     <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
     <copyright>© 2025 Winston Shen</copyright>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/engPort/tags/autodesk-cfd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://winstonshenn.github.io/engPort/tags/autodesk-cfd/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Investigating the effect of vortex generators on lift: IB Extended Essay</title>
-      <link>http://localhost:1313/engPort/projects/ee/</link>
+      <link>https://winstonshenn.github.io/engPort/projects/ee/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/engPort/projects/ee/</guid>
+      <guid>https://winstonshenn.github.io/engPort/projects/ee/</guid>
       <description>Testing custom airfoils in a DIY wind tunnel</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/engPort/projects/ee/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://winstonshenn.github.io/engPort/projects/ee/featured.png" />
     </item>
     
   </channel>

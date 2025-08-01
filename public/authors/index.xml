@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Portfolio</title>
-    <link>http://localhost:1313/engPort/authors/</link>
+    <link>https://winstonshenn.github.io/engPort/authors/</link>
     <description>Recent content in Authors on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
     <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
     <copyright>© 2025 Winston Shen</copyright>
-    <atom:link href="http://localhost:1313/engPort/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://winstonshenn.github.io/engPort/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
