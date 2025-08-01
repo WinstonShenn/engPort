@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kinematic Solver on Home</title>
-    <link>http://localhost:1313/tags/kinematic-solver/</link>
-    <description>Recent content in Kinematic Solver on Home</description>
+    <title>Kinematic Solver on Portfolio</title>
+    <link>http://localhost:1313/engPort/tags/kinematic-solver/</link>
+    <description>Recent content in Kinematic Solver on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
     <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
     <copyright>© 2025 Winston Shen</copyright>
-    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/kinematic-solver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/engPort/tags/kinematic-solver/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FSAE Suspension (Ongoing)</title>
-      <link>http://localhost:1313/projects/sus/</link>
+      <link>http://localhost:1313/engPort/projects/sus/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/projects/sus/</guid>
+      <guid>http://localhost:1313/engPort/projects/sus/</guid>
       <description>Activities I lead and undertook as the 25-26 Suspension Lead</description>
       
     </item>

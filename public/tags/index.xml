@@ -1,182 +1,182 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Home</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Home</description>
+    <title>Tags on Portfolio</title>
+    <link>http://localhost:1313/engPort/tags/</link>
+    <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>winston200618@gmail.com (Winston Shen)</managingEditor>
     <webMaster>winston200618@gmail.com (Winston Shen)</webMaster>
     <copyright>© 2025 Winston Shen</copyright>
-    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/engPort/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>DFM</title>
-      <link>http://localhost:1313/tags/dfm/</link>
+      <link>http://localhost:1313/engPort/tags/dfm/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/dfm/</guid>
+      <guid>http://localhost:1313/engPort/tags/dfm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Machining</title>
-      <link>http://localhost:1313/tags/machining/</link>
+      <link>http://localhost:1313/engPort/tags/machining/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/machining/</guid>
+      <guid>http://localhost:1313/engPort/tags/machining/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Solidworks</title>
-      <link>http://localhost:1313/tags/solidworks/</link>
+      <link>http://localhost:1313/engPort/tags/solidworks/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/solidworks/</guid>
+      <guid>http://localhost:1313/engPort/tags/solidworks/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ansys</title>
-      <link>http://localhost:1313/tags/ansys/</link>
+      <link>http://localhost:1313/engPort/tags/ansys/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/ansys/</guid>
+      <guid>http://localhost:1313/engPort/tags/ansys/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Kinematic Solver</title>
-      <link>http://localhost:1313/tags/kinematic-solver/</link>
+      <link>http://localhost:1313/engPort/tags/kinematic-solver/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/kinematic-solver/</guid>
+      <guid>http://localhost:1313/engPort/tags/kinematic-solver/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Project Management</title>
-      <link>http://localhost:1313/tags/project-management/</link>
+      <link>http://localhost:1313/engPort/tags/project-management/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/project-management/</guid>
+      <guid>http://localhost:1313/engPort/tags/project-management/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Instron Testing</title>
-      <link>http://localhost:1313/tags/instron-testing/</link>
+      <link>http://localhost:1313/engPort/tags/instron-testing/</link>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/instron-testing/</guid>
+      <guid>http://localhost:1313/engPort/tags/instron-testing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Advanced Manufacturing</title>
-      <link>http://localhost:1313/tags/advanced-manufacturing/</link>
+      <link>http://localhost:1313/engPort/tags/advanced-manufacturing/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/advanced-manufacturing/</guid>
+      <guid>http://localhost:1313/engPort/tags/advanced-manufacturing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>DNA Sequencing</title>
-      <link>http://localhost:1313/tags/dna-sequencing/</link>
+      <link>http://localhost:1313/engPort/tags/dna-sequencing/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/dna-sequencing/</guid>
+      <guid>http://localhost:1313/engPort/tags/dna-sequencing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>SEM/EDS</title>
-      <link>http://localhost:1313/tags/sem/eds/</link>
+      <link>http://localhost:1313/engPort/tags/sem/eds/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/sem/eds/</guid>
+      <guid>http://localhost:1313/engPort/tags/sem/eds/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Sequence Assembly</title>
-      <link>http://localhost:1313/tags/sequence-assembly/</link>
+      <link>http://localhost:1313/engPort/tags/sequence-assembly/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/sequence-assembly/</guid>
+      <guid>http://localhost:1313/engPort/tags/sequence-assembly/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AutoDesk CFD</title>
-      <link>http://localhost:1313/tags/autodesk-cfd/</link>
+      <link>http://localhost:1313/engPort/tags/autodesk-cfd/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/autodesk-cfd/</guid>
+      <guid>http://localhost:1313/engPort/tags/autodesk-cfd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Fusion 360</title>
-      <link>http://localhost:1313/tags/fusion-360/</link>
+      <link>http://localhost:1313/engPort/tags/fusion-360/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/fusion-360/</guid>
+      <guid>http://localhost:1313/engPort/tags/fusion-360/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rapid Prototyping</title>
-      <link>http://localhost:1313/tags/rapid-prototyping/</link>
+      <link>http://localhost:1313/engPort/tags/rapid-prototyping/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/rapid-prototyping/</guid>
+      <guid>http://localhost:1313/engPort/tags/rapid-prototyping/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bootstrap</title>
-      <link>http://localhost:1313/tags/bootstrap/</link>
+      <link>http://localhost:1313/engPort/tags/bootstrap/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/bootstrap/</guid>
+      <guid>http://localhost:1313/engPort/tags/bootstrap/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Django</title>
-      <link>http://localhost:1313/tags/django/</link>
+      <link>http://localhost:1313/engPort/tags/django/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/django/</guid>
+      <guid>http://localhost:1313/engPort/tags/django/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>http://localhost:1313/engPort/tags/python/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>http://localhost:1313/engPort/tags/python/</guid>
       <description></description>
       
     </item>
