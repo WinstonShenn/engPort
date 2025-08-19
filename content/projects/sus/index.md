@@ -17,7 +17,7 @@ I played a large role in research and project management before commencement of 
 
 <img class="thumbnailshadow" src="multcalcs.png"/>
 
-I designed the dynamic parametric Suspension CAD Assembly and optimized suspension geometry using the Lotus Kinematics Solver
+I also designed the dynamic parametric Suspension CAD Assembly and optimized suspension geometry using the Lotus Kinematics Solver
 
 ## Parametric CAD
 <img class="thumbnailshadow" src="featured.png"/>
