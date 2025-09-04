@@ -1,5 +1,5 @@
 ---
-title: "Manufacturing carbon fiber parts at Leading Edge Composites"
+title: "Manufacturing Carbon Fiber Parts at Leading Edge Composites"
 date: 2024-10-30
 Summary: "Making carbon fiber parts via pre-preg lamination"
 draft: false
