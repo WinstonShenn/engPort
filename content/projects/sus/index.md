@@ -13,23 +13,26 @@ I am leading a team of students in the designing, manufacturing, and testing of 
 
 I played a large role in research and project management before commencement of the 25-26 season. I conducted research into a decoupled suspension system and revamped our calculations for the change if need be.
 
-### Revamped calculations and considerations for decoupled suspension
-
-<img class="thumbnailshadow" src="multcalcs.png"/>
-
-As suspension lead, I created the suspension master sheet for sitffness calculations, hand calcs for sizing components, etc. 
-
-#### Suspension Calculation Master Sheet
-
-<img class="thumbnailshadow" src="steelCACalcs.png"/>
-
-I also designed the dynamic parametric Suspension and Steering CAD Assembly and optimized suspension geometry using the Lotus Kinematics Solver
+As suspension lead, I designed the dynamic parametric Suspension and Steering CAD Assembly and optimized suspension geometry.
 
 ### Iterative Parametric CAD
-<img class="thumbnailshadow" src="updatedSusport.png"/>
+<img class="thumbnailshadow" src="updatedSuspension frozen.png"/>
 
 The dynamic CAD assembly facillitates high frequency geometry optimization and packaging integration iterations, allowing for the design of geometry through a point cloud system.
 
+#### Rocker Design and Multi-Body FEA
+I designed the new rockers for REV 11, reducing them in size and mass while still hitting our stiffness targets.
+<img class="thumbnailshadow" src="rocker render.png"/>
+
+This was verified using multi-body FEA in Ansys Workbench, encompassing both in plane and off axis loading scenarios.
+<img class="thumbnailshadow" src="deflectionREar.gif"/>
+
+<img class="thumbnailshadow" src="rockerFEADEF.png"/>
+
+### Anti Roll Bar Compliance Testing
+I worked with one other team member to conduct the most comprehensive anti roll bar compliance tests in team history. Helping improve anti roll bar stiffness tuning and accuracy by more than 200%
+
+<img class="thumbnailshadow" src="ARBTESTING.jpg"/>
 
 ### Lotus Kinematics
 
@@ -43,6 +46,13 @@ I used the Lotus kinematics software to design optimize our suspension setup acc
 
 I revamped the blade-style anti roll bar design process, implementing a new dynamic load solver in python that more automates more of the iterative process whilst improving accuracy.
 
+### Revamped calculations and considerations for decoupled suspension
 
+<img class="thumbnailshadow" src="multcalcs.png"/>
 
+I created the suspension master sheet for sitffness calculations, hand calcs for sizing components, etc. 
+
+#### Suspension Calculation Master Sheet
+
+<img class="thumbnailshadow" src="steelCACalcs.png"/>
 
