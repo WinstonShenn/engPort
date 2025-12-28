@@ -21,6 +21,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/engPort/projects/welding/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/engPort/experiences/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>

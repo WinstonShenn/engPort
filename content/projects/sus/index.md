@@ -5,7 +5,7 @@ status: ongoing
 Summary: "Activities I lead and undertook as the 25-26 Suspension Lead"
 draft: false
 featured: "featured.jpg"
-tags: ["Solidworks", "Ansys", "Project Management", "Kinematic Solver", "DFM", "Machining"]
+tags: ["Solidworks", "Ansys", "Project Management", "Kinematic Solver", "DFM", "Machining", "TIG Welding"]
 ---
 
 ## Project Overview

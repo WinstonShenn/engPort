@@ -17,8 +17,18 @@
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <author>winston200618@gmail.com (Winston Shen)</author>
       <guid>http://localhost:1313/engPort/projects/201/</guid>
-      <description>MEAM 2010 Engine Project</description>
+      <description>Striling Heat Engine - MEAM 2010</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/engPort/projects/201/featured.png" />
+    </item>
+    
+    <item>
+      <title>Team Welder</title>
+      <link>http://localhost:1313/engPort/projects/welding/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <author>winston200618@gmail.com (Winston Shen)</author>
+      <guid>http://localhost:1313/engPort/projects/welding/</guid>
+      <description>DC TIG Welding Projects</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/engPort/projects/welding/featured.jpg" />
     </item>
     
     <item>
