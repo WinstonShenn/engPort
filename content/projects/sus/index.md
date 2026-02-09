@@ -13,7 +13,11 @@ I am leading a team of students in the designing, manufacturing, and testing of 
 
 I played a large role in research and project management before commencement of the 25-26 season. I conducted research into a decoupled suspension system and revamped our calculations for the change if need be.
 
-As suspension lead, I designed the dynamic parametric Suspension and Steering CAD Assembly and optimized suspension geometry.
+As suspension lead, I designed the dynamic parametric Suspension and Steering CAD Assembly, optimized suspension geometry, and manufactured the systems.
+
+### Front and Rear Suspension
+<img class="thumbnailshadow" src="featured.jpg"/>
+<img class="thumbnailshadow" src="front_sus.jpg"/>
 
 ### Iterative Parametric CAD
 <img class="thumbnailshadow" src="updatedSuspension frozen.png"/>
@@ -28,6 +32,11 @@ This was verified using multi-body FEA in Ansys Workbench, encompassing both in 
 <img class="thumbnailshadow" src="deflectionREar.gif"/>
 
 <img class="thumbnailshadow" src="rockerFEADEF.png"/>
+
+I designed the fixtures used for the new rockers, helping shorten manfuacturing time. The rockers were manufactured by other members on the team on the HAAS Mini-Mill CNC Mill.
+
+<img class="thumbnailshadow" src="rockers_irl.png"/>
+
 
 ### Anti Roll Bar Compliance Testing
 I worked with one other team member to conduct the most comprehensive anti roll bar compliance tests in team history. Helping improve anti roll bar stiffness tuning and accuracy by more than 200%
