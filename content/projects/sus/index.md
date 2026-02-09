@@ -35,7 +35,7 @@ This was verified using multi-body FEA in Ansys Workbench, encompassing both in 
 
 I designed the fixtures used for the new rockers, helping shorten manfuacturing time. The rockers were manufactured by other members on the team on the HAAS Mini-Mill CNC Mill.
 
-<img class="thumbnailshadow" src="rockers_irl.png"/>
+<img class="thumbnailshadow" src="rockers_irl.jpg"/>
 
 
 ### Anti Roll Bar Compliance Testing
