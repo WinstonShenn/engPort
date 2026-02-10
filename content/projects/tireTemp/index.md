@@ -2,7 +2,7 @@
 title: "Aerodynamic Tire Temperature Sensor"
 date: 2025-03-17
 status: ongoing
-Summary: "Activities I lead and undertook as the 25-26 Suspension Lead"
+Summary: "Designing a sensor mount"
 draft: false
 featured: "featured.jpg"
 tags: ["Solidworks", Rapid Prototyping]

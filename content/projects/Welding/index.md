@@ -14,3 +14,5 @@ As one of the three welders on the Penn Electric Racing team, I helped weld seve
 <img class="thumbnailshadow" src="welding.jpg"/>
 
 <img class="thumbnailshadow" src="featured.jpg"/>
+
+<img class="thumbnailshadow" src="CA_weld.jpg"/>
